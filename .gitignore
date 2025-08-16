@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dask
+dask-worker-space/
+*.html
+
+# Data files (b�y�k dosyalar i�in)
+data/*.csv
+data/*.xlsx
+!data/sample_data.csv
+
+# Output
+output/*.csv
+output/*.xlsx
+!output/.gitkeep
+
+# VS Code
+.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Virtual environment
+venv/
+env/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
